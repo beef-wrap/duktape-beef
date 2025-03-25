@@ -233,7 +233,7 @@ public static class duktape
 		* structure is visible for the public API header.
 		*/
 		char[128] data;
-	};
+	}
 
 	struct duk_memory_functions
 	{
@@ -241,20 +241,20 @@ public static class duktape
 		duk_realloc_function realloc_func;
 		duk_free_function free_func;
 		void* udata;
-	};
+	}
 
 	struct duk_function_list_entry
 	{
 		char* key;
 		duk_c_function value;
 		duk_idx_t nargs;
-	};
+	}
 
 	struct duk_number_list_entry
 	{
 		char* key;
 		duk_double_t value;
-	};
+	}
 
 	struct duk_time_components
 	{
@@ -266,7 +266,7 @@ public static class duktape
 		duk_double_t seconds; /* second: 0-59 (in POSIX time no leap second) */
 		duk_double_t milliseconds; /* may contain sub-millisecond fractions */
 		duk_double_t weekday; /* weekday: 0-6, 0=Sunday, 1=Monday, ..., 6=Saturday */
-	};
+	}
 
 	/*
 	*  Constants

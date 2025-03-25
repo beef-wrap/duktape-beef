@@ -6,7 +6,7 @@ DefaultNamespace = "duktape"
 
 [Configs.Debug.Win64]
 CLibType = "DynamicDebug"
-LibPaths = ["$(ProjectDir)\\libs\\debug\\duktape.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\duktaped.lib"]
 
 [Configs.Release.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\release\\duktape.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\duktape.lib"]
