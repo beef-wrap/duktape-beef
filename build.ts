@@ -1,4 +1,4 @@
-import { type Build } from 'xbuild';
+import { type Build } from 'cmake-ts-gen';
 import { $ } from 'bun';
 
 await $`
