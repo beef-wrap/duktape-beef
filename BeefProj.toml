@@ -5,8 +5,8 @@ Name = "duktape-beef"
 DefaultNamespace = "duktape"
 
 [Configs.Debug.Win64]
-CLibType = "DynamicDebug"
-LibPaths = ["$(ProjectDir)\\libs\\windows\\duktaped.lib"]
+CLibType = "Dynamic"
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\duktape.lib"]
 
 [Configs.Release.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\windows\\duktape.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\duktape.lib"]
